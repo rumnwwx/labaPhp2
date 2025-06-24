@@ -171,7 +171,7 @@ $phones = getAbonentPhones($abonentId);
             <?php if ($_SESSION['role'] === 'admin' || $_SESSION['role'] === 'employee'): ?>
                 <a href="admin_dashboard.php" class="btn btn-admin">Админ-панель</a>
             <?php endif; ?>
-            <a href="logout.php" class="btn btn-logout">Выйти</a>
+            <a href="index.php" class="btn btn-logout">Выйти</a>
         </div>
     </div>
 
